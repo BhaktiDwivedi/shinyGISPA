@@ -1,0 +1,30 @@
+Package: GISPA
+Type: Package
+Title: GISPA: Method for Gene Integrated Set Profile Analysis
+Version: 1.16.0
+Date: 2020-06-16
+Author: Bhakti Dwivedi and Jeanne Kowalski
+Maintainer: Bhakti Dwivedi <bhakti.dwivedi@emory.edu>
+Description: GISPA is a method intended for the researchers who are
+        interested in defining gene sets with similar, a priori
+        specified molecular profile. GISPA method has been previously
+        published in Nucleic Acid Research (Kowalski et al., 2016;
+        PMID: 26826710).
+Depends: R (>= 3.5)
+Imports: Biobase, changepoint, data.table, genefilter, graphics,
+        GSEABase, HH, lattice, latticeExtra, plyr, scatterplot3d, stats
+License: GPL-2
+LazyData: true
+Collate: 'cptPlot.R' 'cptModel.R' 'computePS.R' 'GISPA.R'
+        'cptSlopeplot.R' 'data.R' 'propBarplot.R' 'stackedBarplot.R'
+biocViews: StatisticalMethod,GeneSetEnrichment,GenomeWideAssociation
+Suggests: knitr
+VignetteBuilder: knitr
+NeedsCompilation: no
+RoxygenNote: 7.1.0
+git_url: https://git.bioconductor.org/packages/GISPA
+git_branch: master
+git_last_commit: f78cbe0
+git_last_commit_date: 2020-04-27
+Date/Publication: 2020-04-27
+Packaged: 2020-04-28 02:19:32 UTC; biocbuild
